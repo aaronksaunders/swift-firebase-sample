@@ -1,5 +1,13 @@
 # swift-firebase-sample
 
+##### CONFIGURE WITH YOUR APP INFORMATION
+
+after you clone the repo be sure to do a `pod install` that application is using [cocoaPods](https://guides.cocoapods.org/using/pod-install-vs-update.html)
+
+```swift
+    // file : FirebaseService.swift
+    static var BASE_URL = "https://[YOUR-APP-NAME].firebaseio.com/"
+```
 ##### FIREBASE RULES CONFIGURATION
 ```
 {
@@ -29,3 +37,4 @@
 }
 ```
 ##### SAMPLE DATA STRUCTURE
+![](screenshots/data-example.png)

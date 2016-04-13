@@ -1,5 +1,7 @@
 # swift-firebase-sample
 
+Sample swift application using firebase where we demo creating private objects and use of security and rules in the application. The application also demonstrates creating a user, authentication, listing private and public object and creating them.
+
 ##### CONFIGURE WITH YOUR APP INFORMATION
 
 after you clone the repo be sure to do a `pod install` that application is using [cocoaPods](https://guides.cocoapods.org/using/pod-install-vs-update.html)
